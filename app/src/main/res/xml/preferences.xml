@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:entries="@array/target"
+        android:entryValues="@array/target"
+        android:key="pref_target_score"
+        android:title="@string/target_score"
+        android:summary="@string/target_score_description"
+        android:persistent="true"
+        android:defaultValue="100" />
+</PreferenceScreen>

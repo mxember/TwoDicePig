@@ -1,0 +1,29 @@
+<resources>
+           <string name="app_name">Two Dice Pig</string>
+        <string name="action_settings">Settings</string>
+        <string name="roll_again">Roll</string>
+        <string name="hold">Hold</string>
+        <string name="trough">Trough</string>
+        <string name="player_score">Player</string>
+        <string name="computer_score">Computer</string>
+        <string name="reset_game">Reset Game</string>
+        <string name="restarting_game">Game is restarting with your new settings</string>
+        <string name="target_score_description">Change target score to 50, 100, 150, or 200</string>
+        <string name="player_wins">You win!</string>
+        <string name="player_loses">You lose!</string>
+        <string name="target_score">Target Score</string>
+        <string name="title_activity_settings">Settings</string>
+        <string name="default_target">100</string>
+        <string name="default_target_message">A target must be selected. Changing to default target, 100.</string>
+        <string name="player_loses_trough">You lose the trough! Computer\'s turn.</string>
+        <string name="computer_loses_trough">Computer loses the trough. Your turn.</string>
+        <string name="player_holds">Player holds. Computer taking turn.</string>
+        <string name="computer_holds">Computer holds. Player turn.</string>
+        <string name="welcome_message">Welcome to Pig!</string>
+        <string name="die_1">Die 1</string>
+        <string name="die_2">Die 2</string>
+        <string name="snake_eyes">Snake Eyes! You lose all your points!</string>
+        <string name="snake_eyes_computer">Snake Eyes! Computer loses all points!</string>
+        <string name="result_text_restart_game">Start the game by rolling the dice</string>
+        <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    </resources>

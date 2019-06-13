@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gameGridLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding"
+    android:stretchColumns="0,1"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/playerScoreValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="start"
+            android:padding="@dimen/padding"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+        <TextView
+            android:id="@+id/computerScoreValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:padding="@dimen/padding"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/playerScoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="start"
+            android:paddingLeft="@dimen/padding"
+            android:paddingRight="@dimen/padding"
+            android:text="@string/player_score"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+        <TextView
+            android:id="@+id/computerScoreTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:paddingLeft="@dimen/padding"
+            android:paddingRight="@dimen/padding"
+            android:text="@string/computer_score"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/dieImageView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding"
+            android:contentDescription="@string/die_1"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_1" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/dieImageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="start"
+            android:layout_marginTop="@dimen/padding"
+            android:contentDescription="@string/die_2"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_1" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/troughValue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="center"
+            android:layout_span="2"
+            android:padding="@dimen/padding"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/troughTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_span="2"
+            android:gravity="center"
+            android:text="@string/trough"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/rollAgainButton"
+            style="@android:style/Widget.Material.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:text="@string/roll_again"
+            android:textColor="@color/button_text_color" />
+
+        <Button
+            android:id="@+id/holdButton"
+            style="@android:style/Widget.Material.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/hold"
+            android:textColor="@color/button_text_color" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:gravity="center"
+            android:padding="@dimen/padding"
+            android:textAppearance="@android:style/TextAppearance.Material.Medium" />
+
+    </TableRow>
+</TableLayout>
